@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ITAssetInventorySystem">
+
+    <listeners>
+        <listener class-name="com.ITAssetInventory.utilities.Reporting" />
+    </listeners>
+
+    <test name="ITAssetInventorySystem Test">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.ITAssetInventory.testCases.ITAI_AI_TC_0001" />
+<!--            <class name="com.ITAssetInventory.testCases.ITAI_AI_TC_0002" />-->
+<!--            <class name="com.ITAssetInventory.testCases.ITAI_AI_TC_0003"/>-->
+<!--            <class name="com.ITAssetInventory.testCases.ITAI_ANI_TC_0001"/>-->
+<!--            <class name="com.ITAssetInventory.testCases.ITAI_II_TC_0001"/>-->
+<!--            <class name="com.ITAssetInventory.testCases.ITAI_II_TC_0002"/>-->
+<!--            <class name="com.ITAssetInventory.testCases.ITAI_II_TC_0003"/>-->
+<!--            <class name="com.ITAssetInventory.testCases.ITAI_II_TC_0004"/>-->
+<!--            <class name="com.ITAssetInventory.testCases.ITAI_II_TC_0005"/>-->
+        </classes>
+
+    </test>
+
+</suite>
