@@ -15,7 +15,7 @@ import java.time.Duration;
 //IT Asset Inventory-All Items in IT Inventory Section - Heading
 
 public class ITAI_AI_TC_0001 extends Base{
-    @Test(priority = 0)
+    @Test(priority = 0)//Navigate to All Items in Inventory Section
     public void navigateToBrowseInventorySection() throws IOException {
         login();
         logger.info("Login to the Home Page");

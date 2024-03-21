@@ -12,9 +12,9 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.*;
 import java.util.stream.Collectors;
-
+//IT Asset Inventory-All Items in IT Inventory Section - Table Headers
 public class ITAI_AI_TC_0002 extends Base{
-    @Test(priority = 0)
+    @Test(priority = 0)//Navigate to All Items in Inventory Section
     public void navigateToBrowseInventorySection() throws IOException {
         login();
         logger.info("Login to the Home Page");
@@ -27,9 +27,9 @@ public class ITAI_AI_TC_0002 extends Base{
         logger.info("Select Browse Inventory from the dropdown");
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1)//Check that all common fields are present in the table.
     public void checkAllCommonFieldsArePresent() throws IOException {
-        logger.info("Executing checkAllCommonFieldsArePresent test");
+//        logger.info("Executing checkAllCommonFieldsArePresent test");
         BrowseInventoryPage browseInventoryPage = new BrowseInventoryPage(driver);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         List<WebElement> headers = wait.until(ExpectedConditions.visibilityOfAllElements(browseInventoryPage.getTableHeaders()));
@@ -54,12 +54,12 @@ public class ITAI_AI_TC_0002 extends Base{
             logger.info("Missing required headers: " + Sets.difference(requiredHeaders, actualHeaders));
             Assert.fail();
         }
-        logger.info("checkAllCommonFieldsArePresent test completed");
+//        logger.info("checkAllCommonFieldsArePresent test completed");
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2)//Check that all additional fields for Laptop are present in the table
     public void checkAllLaptopAdditionalFieldsArePresent() throws IOException {
-        logger.info("Executing checkAllLaptopAdditionalFieldsArePresent test");
+//        logger.info("Executing checkAllLaptopAdditionalFieldsArePresent test");
         BrowseInventoryPage browseInventoryPage = new BrowseInventoryPage(driver);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         List<WebElement> headers = wait.until(ExpectedConditions.visibilityOfAllElements(browseInventoryPage.getTableHeaders()));
@@ -85,12 +85,12 @@ public class ITAI_AI_TC_0002 extends Base{
             logger.info("Missing required headers: " + Sets.difference(requiredHeaders, actualHeaders));
             Assert.fail();
         }
-        logger.info("checkAllLaptopAdditionalFieldsArePresent test completed");
+//        logger.info("checkAllLaptopAdditionalFieldsArePresent test completed");
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3)//Check that all additional fields for Desktop computer are present in the table.
     public void checkAllDesktopAdditionalFieldsArePresent() throws IOException {
-        logger.info("Executing checkAllDesktopAdditionalFieldsArePresent test");
+//        logger.info("Executing checkAllDesktopAdditionalFieldsArePresent test");
         BrowseInventoryPage browseInventoryPage = new BrowseInventoryPage(driver);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         List<WebElement> headers = wait.until(ExpectedConditions.visibilityOfAllElements(browseInventoryPage.getTableHeaders()));
@@ -115,12 +115,12 @@ public class ITAI_AI_TC_0002 extends Base{
             logger.info("Missing required headers: " + Sets.difference(requiredHeaders, actualHeaders));
             Assert.fail();
         }
-        logger.info("checkAllDesktopAdditionalFieldsArePresent test completed");
+//        logger.info("checkAllDesktopAdditionalFieldsArePresent test completed");
     }
 
-    @Test(priority = 4)
+    @Test(priority = 4)//Check that all additional fields for Sub Items are present in the table.
     public void checkAllSubItemsAdditionalFieldsArePresent() throws IOException {
-        logger.info("Executing checkAllSubItemsAdditionalFieldsArePresent test");
+//        logger.info("Executing checkAllSubItemsAdditionalFieldsArePresent test");
         BrowseInventoryPage browseInventoryPage = new BrowseInventoryPage(driver);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         List<WebElement> headers = wait.until(ExpectedConditions.visibilityOfAllElements(browseInventoryPage.getTableHeaders()));
@@ -144,7 +144,7 @@ public class ITAI_AI_TC_0002 extends Base{
             logger.info("Missing required headers: " + Sets.difference(requiredHeaders, actualHeaders));
             Assert.fail();
         }
-        logger.info("checkAllSubItemsAdditionalFieldsArePresent test completed");
+//        logger.info("checkAllSubItemsAdditionalFieldsArePresent test completed");
     }
 
 

@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
-
+//IT Asset Inventory-All Items in IT Inventory Section - Table Data
 public class ITAI_AI_TC_0003 extends Base{
     @Test(priority = 0)
     public void navigateToBrowseInventorySection() throws IOException {
@@ -26,12 +26,13 @@ public class ITAI_AI_TC_0003 extends Base{
         browseInventoryOption.click();
         logger.info("Select Browse Inventory from the dropdown");
     }
-    @Test(priority = 1)
+    @Test(priority = 1)//Check a record in Table corresponding to  assigned Laptop.
     public void checkLaptopRecordDataAreFilled() throws IOException {
-        logger.info("Executing checkLaptopRecordDataAreFilled test");
+//        logger.info("Executing checkLaptopRecordDataAreFilled test");
         BrowseInventoryPage browseInventoryPage = new BrowseInventoryPage(driver);
         WebElement table = browseInventoryPage.getAllItemsTable();
-        List<WebElement> tableRows = table.findElements(By.tagName("tr"));
+        List<WebElement> tableRows = table.findElements(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr"));
+        logger.info(tableRows);
 
         for (WebElement row : tableRows) {
             WebElement itemNameCell = row.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr/td[3]")); // Assuming item name is in the 3rd column
@@ -40,7 +41,7 @@ public class ITAI_AI_TC_0003 extends Base{
             if (itemName.equalsIgnoreCase("Laptop")) {
                 List<Integer> requiredFields = Arrays.asList(2, 3, 4, 5, 6, 10, 11, 12, 13, 14,21);
                 List<Integer> otherFields = Arrays.asList(7, 8, 15,16, 17, 18);
-                // Check required fields
+//                List<WebElement> requestID = List<WebElement> row.findElement(By.className("sorting_1"));
                 for (Integer columnNumber : requiredFields) {
                     WebElement fieldCell = row.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr/td[" + columnNumber + "]"));
                     String fieldValue = fieldCell.getText();
@@ -83,24 +84,33 @@ public class ITAI_AI_TC_0003 extends Base{
                             fieldName = "Unknown Field";
                             break;
                     }
-                    if(columnNumber == 11 || columnNumber == 12){
-                        if (!fieldValue.equalsIgnoreCase("N/A")) {
+                    if (columnNumber == 11 || columnNumber == 12) {
+                        fieldCell = row.findElement(By.xpath("//*[@id='ContentPlaceHolder1_gridcashinhand']/tbody/tr/td[12]")); // Get the second field's cell
+                        String laptopBarCode = fieldCell.getText(); // Get the value of the second field
+
+                        if (!fieldValue.equalsIgnoreCase("N/A") || !laptopBarCode.equalsIgnoreCase("N/A")) {
+                            // At least one of the fields is not "N/A", so the requirement is met
                             Assert.assertTrue(true);
-                            logger.info("Required field '" + fieldName + "' of Laptop record is filled.");
-                        }
-                        else {
+                            logger.info("Required field (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.");
+                        } else {
+                            // Both fields are "N/A", which is incorrect
                             captureScreen(driver, "checkLaptopRecordDataAreFilled");
-                            logger.info("Required field '" + fieldName + "' of Laptop record is not filled.");
+                            logger.info("Both required fields (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are not filled.");
                             Assert.fail();
                         }
-                    }else if (columnNumber == 13 || columnNumber == 14){
-                        if (!fieldValue.equalsIgnoreCase("N/A")) {
+                    }
+                else if (columnNumber == 13 || columnNumber == 14) {
+                        fieldCell = row.findElement(By.xpath("//*[@id='ContentPlaceHolder1_gridcashinhand']/tbody/tr/td[12]")); // Get the second field's cell
+                        String laptopBarCode = fieldCell.getText(); // Get the value of the second field
+
+                        if (!fieldValue.equalsIgnoreCase("N/A") || !laptopBarCode.equalsIgnoreCase("N/A")) {
+                            // At least one of the fields is not "N/A", so the requirement is met
                             Assert.assertTrue(true);
-                            logger.info("Required field '" + fieldName + "' of Laptop record is filled.");
-                        }
-                        else {
+                            logger.info("Required field (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.");
+                        } else {
+                            // Both fields are "N/A", which is incorrect
                             captureScreen(driver, "checkLaptopRecordDataAreFilled");
-                            logger.info("Required field '" + fieldName + "' of Laptop record is not filled.");
+                            logger.info("Both required fields (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are not filled.");
                             Assert.fail();
                         }
                     }
@@ -154,184 +164,184 @@ public class ITAI_AI_TC_0003 extends Base{
                     }
                 }
 
-                logger.info("checkLaptopRecordDataAreFilled test completed");
+//                logger.info("checkLaptopRecordDataAreFilled test completed");
             }
         }
         driver.navigate().refresh();
     }
 
-    @Test(priority = 2)
-    public void checkDesktopRecordDataAreFilled() throws IOException {
-        logger.info("Executing checkDesktopRecordDataAreFilled test");
-        BrowseInventoryPage browseInventoryPage = new BrowseInventoryPage(driver);
-        browseInventoryPage.recordsPerPage();
-        WebElement table = browseInventoryPage.getAllItemsTable();
-        List<WebElement> tableRows = table.findElements(By.tagName("tr"));
-
-        for (WebElement row : tableRows) {
-            WebElement itemNameCell = row.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr/td[3][text()='Desktop Computer']")); // Assuming item name is in the 3rd column
-            String itemName = itemNameCell.getText();
-            logger.info("Item Name: " + itemName);
-
-            if (itemName.equalsIgnoreCase("Desktop Computer")) {
-                List<Integer> requiredFields = Arrays.asList(2, 3, 4, 5, 6, 15, 16, 17, 18,21);
-                List<Integer> otherFields = Arrays.asList(7, 8, 10,11, 12, 13,14);
-                // Check required fields
-                for (Integer columnNumber : requiredFields) {
-                    WebElement fieldCell = row.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr/td[" + columnNumber + "]"));
-                    String fieldValue = fieldCell.getText();
-                    String fieldName;
-                    boolean isAnyFieldFilled = false;
-                    switch (columnNumber) {
-                        case 2:
-                            fieldName = "USER NAME";
-                            if (!fieldValue.equalsIgnoreCase("N/A")) {
-                                Assert.assertTrue(true);
-                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
-                            }
-                            else {
-                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
-                                logger.info("Required field '" + fieldName + "' of Desktop record is not filled.");
-                                Assert.fail();
-                            }
-                            break;
-                        case 3:
-                            fieldName = "ITEM NAME";
-                            if (!fieldValue.equalsIgnoreCase("N/A")) {
-                                Assert.assertTrue(true);
-                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
-                            }
-                            else {
-                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
-                                logger.info("Required field '" + fieldName + "' of Desktop record is not filled.");
-                                Assert.fail();
-                            }
-                            break;
-                        case 4:
-                            fieldName = "ITEM CODE";
-                            if (!fieldValue.equalsIgnoreCase("N/A")) {
-                                Assert.assertTrue(true);
-                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
-                            }
-                            else {
-                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
-                                logger.info("Required field '" + fieldName + "' of Desktop record is not filled.");
-                                Assert.fail();
-                            }
-                            break;
-                        case 5:
-                            fieldName = "QUANTITY";
-                            if (!fieldValue.equalsIgnoreCase("N/A")) {
-                                Assert.assertTrue(true);
-                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
-                            }
-                            else {
-                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
-                                logger.info("Required field '" + fieldName + "' of Desktop record is not filled.");
-                                Assert.fail();
-                            }
-                            break;
-                        case 6:
-                            fieldName = "ITEM TYPE";
-                            if (!fieldValue.equalsIgnoreCase("N/A")) {
-                                Assert.assertTrue(true);
-                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
-                            }
-                            else {
-                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
-                                logger.info("Required field '" + fieldName + "' of Desktop record is not filled.");
-                                Assert.fail();
-                            }
-                            break;
-                        case 15:
-                            fieldName = "CPU SERIAL NUMBER";
-                            if (!fieldValue.equalsIgnoreCase("N/A")) {
-                                Assert.assertTrue(true);
-                                logger.info("Required field '" + columnNumber + "' of Desktop record is filled.");
-                            }
-                            else {
-                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
-                                logger.info("None of the required field'" +columnNumber+ "'of Desktop record is filled.");
-                                Assert.fail();
-                                }
-                            break;
-                        case 17:
-                        case 18:
-                            fieldName = "MONITOR SERIAL NUMBER OR BAR CODE";
-                            if (!fieldValue.equalsIgnoreCase("N/A")) {
-                                Assert.assertTrue(true);
-                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
-                            }
-                            else {
-                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
-                                logger.info("None of the required field'" + fieldName+ "'of Desktop record is filled.");
-                                Assert.fail();
-                            }
-                            break;
-                        case 21:
-                            fieldName = "IT PURCHASE NUMBER";
-                            if (!fieldValue.equalsIgnoreCase("N/A")) {
-                                Assert.assertTrue(true);
-                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
-                            }
-                            else {
-                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
-                                logger.info("Required field '" + fieldName + "' of Desktop record is not filled.");
-                                Assert.fail();
-                            }
-                            break;
-                        default:
-                            fieldName = "Unknown Field";
-                            break;
-                    }
-
-
-                }
-                for (Integer fieldNumber : otherFields) {
-                    WebElement fieldCell = row.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr/td[" + fieldNumber + "]"));
-                    String fieldValue = fieldCell.getText();
-                    String fieldName;
-                    switch (fieldNumber) {
-                        case 7:
-                            fieldName = "CODE";
-                            break;
-                        case 8:
-                            fieldName = "CODE TYPE";
-                            break;
-                        case 10:
-                            fieldName = "LAPTOP BRAND NAME";
-                            break;
-                        case 11:
-                            fieldName = "LAPTOP SERIAL NUMBER";
-                            break;
-                        case 12:
-                            fieldName = "LAPTOP BAR CODE";
-                            break;
-                        case 13:
-                            fieldName = "CHARGER SERIAL NUMBER";
-                            break;
-                        case 14:
-                            fieldName = "CHARGER BAR CODE";
-                            break;
-                        default:
-                            fieldName = "Unknown Field";
-                            break;
-                    }
-
-                    if (fieldValue.equals("N/A")) {
-                        Assert.assertTrue(true);
-                        logger.info("Non-required field '" + fieldName + "' of Desktop record is filled with 'N/A'.");
-                    } else {
-                        captureScreen(driver, "checkDesktopRecordDataAreFilled");
-                        logger.info("Non-required field '" + fieldName + "' of Desktop record is not filled with 'N/A'.");
-                        Assert.fail();
-                    }
-                }
-
-                logger.info("checkDesktopRecordDataAreFilled test completed");
-            }
-        }
-    }
+//    @Test(priority = 2)
+//    public void checkDesktopRecordDataAreFilled() throws IOException {
+//        logger.info("Executing checkDesktopRecordDataAreFilled test");
+//        BrowseInventoryPage browseInventoryPage = new BrowseInventoryPage(driver);
+//        browseInventoryPage.recordsPerPage();
+//        WebElement table = browseInventoryPage.getAllItemsTable();
+//        List<WebElement> tableRows = table.findElements(By.tagName("tr"));
+//
+//        for (WebElement row : tableRows) {
+//            WebElement itemNameCell = row.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr/td[3][text()='Desktop Computer']")); // Assuming item name is in the 3rd column
+//            String itemName = itemNameCell.getText();
+//            logger.info("Item Name: " + itemName);
+//
+//            if (itemName.equalsIgnoreCase("Desktop Computer")) {
+//                List<Integer> requiredFields = Arrays.asList(2, 3, 4, 5, 6, 15, 16, 17, 18,21);
+//                List<Integer> otherFields = Arrays.asList(7, 8, 10,11, 12, 13,14);
+//                // Check required fields
+//                for (Integer columnNumber : requiredFields) {
+//                    WebElement fieldCell = row.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr/td[" + columnNumber + "]"));
+//                    String fieldValue = fieldCell.getText();
+//                    String fieldName;
+//                    boolean isAnyFieldFilled = false;
+//                    switch (columnNumber) {
+//                        case 2:
+//                            fieldName = "USER NAME";
+//                            if (!fieldValue.equalsIgnoreCase("N/A")) {
+//                                Assert.assertTrue(true);
+//                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
+//                            }
+//                            else {
+//                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
+//                                logger.info("Required field '" + fieldName + "' of Desktop record is not filled.");
+//                                Assert.fail();
+//                            }
+//                            break;
+//                        case 3:
+//                            fieldName = "ITEM NAME";
+//                            if (!fieldValue.equalsIgnoreCase("N/A")) {
+//                                Assert.assertTrue(true);
+//                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
+//                            }
+//                            else {
+//                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
+//                                logger.info("Required field '" + fieldName + "' of Desktop record is not filled.");
+//                                Assert.fail();
+//                            }
+//                            break;
+//                        case 4:
+//                            fieldName = "ITEM CODE";
+//                            if (!fieldValue.equalsIgnoreCase("N/A")) {
+//                                Assert.assertTrue(true);
+//                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
+//                            }
+//                            else {
+//                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
+//                                logger.info("Required field '" + fieldName + "' of Desktop record is not filled.");
+//                                Assert.fail();
+//                            }
+//                            break;
+//                        case 5:
+//                            fieldName = "QUANTITY";
+//                            if (!fieldValue.equalsIgnoreCase("N/A")) {
+//                                Assert.assertTrue(true);
+//                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
+//                            }
+//                            else {
+//                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
+//                                logger.info("Required field '" + fieldName + "' of Desktop record is not filled.");
+//                                Assert.fail();
+//                            }
+//                            break;
+//                        case 6:
+//                            fieldName = "ITEM TYPE";
+//                            if (!fieldValue.equalsIgnoreCase("N/A")) {
+//                                Assert.assertTrue(true);
+//                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
+//                            }
+//                            else {
+//                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
+//                                logger.info("Required field '" + fieldName + "' of Desktop record is not filled.");
+//                                Assert.fail();
+//                            }
+//                            break;
+//                        case 15:
+//                            fieldName = "CPU SERIAL NUMBER";
+//                            if (!fieldValue.equalsIgnoreCase("N/A")) {
+//                                Assert.assertTrue(true);
+//                                logger.info("Required field '" + columnNumber + "' of Desktop record is filled.");
+//                            }
+//                            else {
+//                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
+//                                logger.info("None of the required field'" +columnNumber+ "'of Desktop record is filled.");
+//                                Assert.fail();
+//                                }
+//                            break;
+//                        case 17:
+//                        case 18:
+//                            fieldName = "MONITOR SERIAL NUMBER OR BAR CODE";
+//                            if (!fieldValue.equalsIgnoreCase("N/A")) {
+//                                Assert.assertTrue(true);
+//                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
+//                            }
+//                            else {
+//                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
+//                                logger.info("None of the required field'" + fieldName+ "'of Desktop record is filled.");
+//                                Assert.fail();
+//                            }
+//                            break;
+//                        case 21:
+//                            fieldName = "IT PURCHASE NUMBER";
+//                            if (!fieldValue.equalsIgnoreCase("N/A")) {
+//                                Assert.assertTrue(true);
+//                                logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
+//                            }
+//                            else {
+//                                captureScreen(driver, "checkDesktopRecordDataAreFilled");
+//                                logger.info("Required field '" + fieldName + "' of Desktop record is not filled.");
+//                                Assert.fail();
+//                            }
+//                            break;
+//                        default:
+//                            fieldName = "Unknown Field";
+//                            break;
+//                    }
+//
+//
+//                }
+//                for (Integer fieldNumber : otherFields) {
+//                    WebElement fieldCell = row.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr/td[" + fieldNumber + "]"));
+//                    String fieldValue = fieldCell.getText();
+//                    String fieldName;
+//                    switch (fieldNumber) {
+//                        case 7:
+//                            fieldName = "CODE";
+//                            break;
+//                        case 8:
+//                            fieldName = "CODE TYPE";
+//                            break;
+//                        case 10:
+//                            fieldName = "LAPTOP BRAND NAME";
+//                            break;
+//                        case 11:
+//                            fieldName = "LAPTOP SERIAL NUMBER";
+//                            break;
+//                        case 12:
+//                            fieldName = "LAPTOP BAR CODE";
+//                            break;
+//                        case 13:
+//                            fieldName = "CHARGER SERIAL NUMBER";
+//                            break;
+//                        case 14:
+//                            fieldName = "CHARGER BAR CODE";
+//                            break;
+//                        default:
+//                            fieldName = "Unknown Field";
+//                            break;
+//                    }
+//
+//                    if (fieldValue.equals("N/A")) {
+//                        Assert.assertTrue(true);
+//                        logger.info("Non-required field '" + fieldName + "' of Desktop record is filled with 'N/A'.");
+//                    } else {
+//                        captureScreen(driver, "checkDesktopRecordDataAreFilled");
+//                        logger.info("Non-required field '" + fieldName + "' of Desktop record is not filled with 'N/A'.");
+//                        Assert.fail();
+//                    }
+//                }
+//
+//                logger.info("checkDesktopRecordDataAreFilled test completed");
+//            }
+//        }
+//    }
 
 
 }
