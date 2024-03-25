@@ -13,12 +13,12 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
 //IT Asset Inventory-All Items in IT Inventory Section - Table Data
-public class ITAI_AI_TC_0003 extends Base{
+public class ITAI_AI_TC_0003 extends Base {
     @Test(priority = 0)
     public void navigateToBrowseInventorySection() throws IOException {
         login();
         logger.info("Login to the Home Page");
-        HomePage home=new HomePage(driver);
+        HomePage home = new HomePage(driver);
         home.clickIctInventoryManager();
         logger.info("Select ICT Inventory Manager from the dropdown");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -26,149 +26,151 @@ public class ITAI_AI_TC_0003 extends Base{
         browseInventoryOption.click();
         logger.info("Select Browse Inventory from the dropdown");
     }
+
     @Test(priority = 1)//Check a record in Table corresponding to  assigned Laptop.
     public void checkLaptopRecordDataAreFilled() throws IOException {
 //        logger.info("Executing checkLaptopRecordDataAreFilled test");
         BrowseInventoryPage browseInventoryPage = new BrowseInventoryPage(driver);
         WebElement table = browseInventoryPage.getAllItemsTable();
-        List<WebElement> tableRows = table.findElements(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr"));
-        logger.info(tableRows);
+        List<WebElement> rows = table.findElements(By.tagName("tr"));
 
-        for (WebElement row : tableRows) {
-            WebElement itemNameCell = row.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr/td[3]")); // Assuming item name is in the 3rd column
-            String itemName = itemNameCell.getText();
+        for (WebElement row : rows) {
+            List<WebElement> cells = row.findElements(By.tagName("td"));
+            if (!cells.isEmpty()) {
+                String itemName = cells.get(2).getText();
+                if (itemName.equalsIgnoreCase("Laptop")) {
+                    String requestID = cells.get(0).getText();
+                    logger.info("Request ID for Laptop record: " + requestID);
+                    List<Integer> requiredFields = Arrays.asList(2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 21);
+                    List<Integer> otherFields = Arrays.asList(7, 8, 15, 16, 17, 18);
+                    boolean atLeastOneFieldFilled = false;
+                    for (Integer columnNumber : requiredFields) {
+                        WebElement fieldCell = row.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr/td[" + columnNumber + "]"));
+                        String fieldValue = fieldCell.getText();
+                        String fieldName;
+                        switch (columnNumber) {
+                            case 2:
+                                fieldName = "USER NAME";
+                                break;
+                            case 3:
+                                fieldName = "ITEM NAME";
+                                break;
+                            case 4:
+                                fieldName = "ITEM CODE";
+                                break;
+                            case 5:
+                                fieldName = "QUANTITY";
+                                break;
+                            case 6:
+                                fieldName = "ITEM TYPE";
+                                break;
+                            case 10:
+                                fieldName = "LAPTOP BRAND NAME";
+                                break;
+                            case 11:
+                                fieldName = "LAPTOP SERIAL NUMBER";
+                                break;
+                            case 12:
+                                fieldName = "LAPTOP BAR CODE";
+                                break;
+                            case 13:
+                                fieldName = "CHARGER SERIAL NUMBER";
+                                break;
+                            case 14:
+                                fieldName = "CHARGER BAR CODE";
+                                break;
+                            case 21:
+                                fieldName = "IT PURCHASE NUMBER";
+                                break;
+                            default:
+                                fieldName = "Unknown Field";
+                                break;
+                        }
+                        if (columnNumber == 11 || columnNumber == 12) {
+                            fieldCell = row.findElement(By.xpath("//*[@id='ContentPlaceHolder1_gridcashinhand']/tbody/tr/td[12]")); // Get the second field's cell
+                            String laptopBarCode = fieldCell.getText(); // Get the value of the second field
 
-            if (itemName.equalsIgnoreCase("Laptop")) {
-                List<Integer> requiredFields = Arrays.asList(2, 3, 4, 5, 6, 10, 11, 12, 13, 14,21);
-                List<Integer> otherFields = Arrays.asList(7, 8, 15,16, 17, 18);
-//                List<WebElement> requestID = List<WebElement> row.findElement(By.className("sorting_1"));
-                for (Integer columnNumber : requiredFields) {
-                    WebElement fieldCell = row.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr/td[" + columnNumber + "]"));
-                    String fieldValue = fieldCell.getText();
-                    String fieldName;
-                    switch (columnNumber) {
-                        case 2:
-                            fieldName = "USER NAME";
-                            break;
-                        case 3:
-                            fieldName = "ITEM NAME";
-                            break;
-                        case 4:
-                            fieldName = "ITEM CODE";
-                            break;
-                        case 5:
-                            fieldName = "QUANTITY";
-                            break;
-                        case 6:
-                            fieldName = "ITEM TYPE";
-                            break;
-                        case 10:
-                            fieldName = "LAPTOP BRAND NAME";
-                            break;
-                        case 11:
-                            fieldName = "LAPTOP SERIAL NUMBER";
-                            break;
-                        case 12:
-                            fieldName = "LAPTOP BAR CODE";
-                            break;
-                        case 13:
-                            fieldName = "CHARGER SERIAL NUMBER";
-                            break;
-                        case 14:
-                            fieldName = "CHARGER BAR CODE";
-                            break;
-                        case 21:
-                            fieldName = "IT PURCHASE NUMBER";
-                            break;
-                        default:
-                            fieldName = "Unknown Field";
-                            break;
-                    }
-                    if (columnNumber == 11 || columnNumber == 12) {
-                        fieldCell = row.findElement(By.xpath("//*[@id='ContentPlaceHolder1_gridcashinhand']/tbody/tr/td[12]")); // Get the second field's cell
-                        String laptopBarCode = fieldCell.getText(); // Get the value of the second field
+                            if (!fieldValue.equalsIgnoreCase("N/A") || !laptopBarCode.equalsIgnoreCase("N/A")) {
+                                // At least one of the fields is not "N/A", so the requirement is met
+                                atLeastOneFieldFilled = true;
+                                Assert.assertTrue(true);
+                                logger.info("At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.");
+                            } else {
+                                // Both fields are "N/A", which is incorrect
+                                captureScreen(driver, "checkLaptopRecordDataAreFilled");
+                                logger.info("Both required fields (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are not filled.");
+                                Assert.fail();
+                            }
+                        } else if (columnNumber == 13 || columnNumber == 14) {
+                            fieldCell = row.findElement(By.xpath("//*[@id='ContentPlaceHolder1_gridcashinhand']/tbody/tr/td[14]")); // Get the second field's cell
+                            String chargerBarCode = fieldCell.getText(); // Get the value of the second field
 
-                        if (!fieldValue.equalsIgnoreCase("N/A") || !laptopBarCode.equalsIgnoreCase("N/A")) {
-                            // At least one of the fields is not "N/A", so the requirement is met
-                            Assert.assertTrue(true);
-                            logger.info("Required field (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.");
+                            if (!fieldValue.equalsIgnoreCase("N/A") || !chargerBarCode.equalsIgnoreCase("N/A")) {
+                                // At least one of the fields is not "N/A", so the requirement is met
+                                Assert.assertTrue(true);
+                                logger.info("Required field (CHARGER SERIAL NUMBER or CHARGER BAR CODE) of Laptop record is filled.");
+                            } else {
+                                // Both fields are "N/A", which is incorrect
+                                captureScreen(driver, "checkLaptopRecordDataAreFilled");
+                                logger.info("Both required fields (CHARGER SERIAL NUMBER and CHARGER BAR CODE) of Laptop record are not filled.");
+                                Assert.fail();
+                            }
                         } else {
-                            // Both fields are "N/A", which is incorrect
-                            captureScreen(driver, "checkLaptopRecordDataAreFilled");
-                            logger.info("Both required fields (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are not filled.");
-                            Assert.fail();
+                            if (!fieldValue.equalsIgnoreCase("N/A")) {
+                                Assert.assertTrue(true);
+                                logger.info("Required field '" + fieldName + "' of Laptop record is filled.");
+                            } else {
+                                captureScreen(driver, "checkLaptopRecordDataAreFilled");
+                                logger.info("Required field '" + fieldName + "' of Laptop record is not filled.");
+                                Assert.fail();
+                            }
                         }
                     }
-                else if (columnNumber == 13 || columnNumber == 14) {
-                        fieldCell = row.findElement(By.xpath("//*[@id='ContentPlaceHolder1_gridcashinhand']/tbody/tr/td[12]")); // Get the second field's cell
-                        String laptopBarCode = fieldCell.getText(); // Get the value of the second field
+                    for (Integer fieldNumber : otherFields) {
+                        WebElement fieldCell = row.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr/td[" + fieldNumber + "]"));
+                        String fieldValue = fieldCell.getText();
+                        String fieldName;
+                        switch (fieldNumber) {
+                            case 7:
+                                fieldName = "CODE";
+                                break;
+                            case 8:
+                                fieldName = "CODE TYPE";
+                                break;
+                            case 15:
+                                fieldName = "CPU SERIAL NUMBER";
+                                break;
+                            case 16:
+                                fieldName = "CPU BAR CODE";
+                                break;
+                            case 17:
+                                fieldName = "MONITOR SERIAL NUMBER";
+                                break;
+                            case 18:
+                                fieldName = "MONITOR BAR CODE";
+                                break;
+                            default:
+                                fieldName = "Unknown Field";
+                                break;
+                        }
 
-                        if (!fieldValue.equalsIgnoreCase("N/A") || !laptopBarCode.equalsIgnoreCase("N/A")) {
-                            // At least one of the fields is not "N/A", so the requirement is met
+                        if (fieldValue.equals("N/A")) {
                             Assert.assertTrue(true);
-                            logger.info("Required field (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.");
+                            logger.info("Non-required field '" + fieldName + "' of Laptop record is filled with 'N/A'.");
                         } else {
-                            // Both fields are "N/A", which is incorrect
                             captureScreen(driver, "checkLaptopRecordDataAreFilled");
-                            logger.info("Both required fields (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are not filled.");
+                            logger.info("Non-required field '" + fieldName + "' of Laptop record is not filled with 'N/A'.");
                             Assert.fail();
                         }
                     }
-                    else{
-                        if (!fieldValue.equalsIgnoreCase("N/A")) {
-                            Assert.assertTrue(true);
-                            logger.info("Required field '" + fieldName + "' of Laptop record is filled.");
-                        }
-                        else {
-                            captureScreen(driver, "checkLaptopRecordDataAreFilled");
-                            logger.info("Required field '" + fieldName + "' of Laptop record is not filled.");
-                            Assert.fail();
-                        }
-                    }
-                }
-                for (Integer fieldNumber : otherFields) {
-                    WebElement fieldCell = row.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_gridcashinhand\"]/tbody/tr/td[" + fieldNumber + "]"));
-                    String fieldValue = fieldCell.getText();
-                    String fieldName;
-                    switch (fieldNumber) {
-                        case 7:
-                            fieldName = "CODE";
-                            break;
-                        case 8:
-                            fieldName = "CODE TYPE";
-                            break;
-                        case 15:
-                            fieldName = "CPU SERIAL NUMBER";
-                            break;
-                        case 16:
-                            fieldName = "CPU BAR CODE";
-                            break;
-                        case 17:
-                            fieldName = "MONITOR SERIAL NUMBER";
-                            break;
-                        case 18:
-                            fieldName = "MONITOR BAR CODE";
-                            break;
-                        default:
-                            fieldName = "Unknown Field";
-                            break;
-                    }
-
-                    if (fieldValue.equals("N/A")) {
-                        Assert.assertTrue(true);
-                        logger.info("Non-required field '" + fieldName + "' of Laptop record is filled with 'N/A'.");
-                    } else {
-                        captureScreen(driver, "checkLaptopRecordDataAreFilled");
-                        logger.info("Non-required field '" + fieldName + "' of Laptop record is not filled with 'N/A'.");
-                        Assert.fail();
-                    }
-                }
 
 //                logger.info("checkLaptopRecordDataAreFilled test completed");
+                }
             }
+
         }
-        driver.navigate().refresh();
-    }
+            driver.navigate().refresh();
+        }
 
 //    @Test(priority = 2)
 //    public void checkDesktopRecordDataAreFilled() throws IOException {
@@ -344,4 +346,4 @@ public class ITAI_AI_TC_0003 extends Base{
 //    }
 
 
-}
+    }
