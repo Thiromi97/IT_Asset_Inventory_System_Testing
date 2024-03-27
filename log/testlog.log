@@ -531,3 +531,678 @@
 2024-03-26 15:01:43,538 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
 2024-03-26 15:01:43,540 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
 2024-03-26 15:01:43,756 - GoodHealth AUD Plan -INFO - Both required fields (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are not filled.
+2024-03-26 15:06:12,310 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-26 15:06:12,674 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-26 15:06:12,741 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-26 15:06:13,169 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-26 15:06:13,169 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-26 15:06:13,247 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-26 15:06:14,224 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-26 15:06:14,448 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-26 15:06:14,448 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-26 15:06:14,665 - GoodHealth AUD Plan -INFO - Both required fields (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are not filled.
+2024-03-26 15:07:46,813 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-26 15:07:47,270 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-26 15:07:47,360 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-26 15:07:47,847 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-26 15:07:47,847 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-26 15:07:47,928 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-26 15:07:48,857 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-26 15:07:49,165 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-26 15:07:49,166 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-26 15:07:49,287 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-26 15:07:49,479 - GoodHealth AUD Plan -INFO - Both required fields (CHARGER SERIAL NUMBER and CHARGER BAR CODE) of Laptop record are not filled.
+2024-03-26 15:08:39,433 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-26 15:08:40,363 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-26 15:08:40,430 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-26 15:08:40,883 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-26 15:08:40,884 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-26 15:08:40,965 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-26 15:08:41,874 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-26 15:08:42,030 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-26 15:08:42,031 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-26 15:08:42,296 - GoodHealth AUD Plan -INFO - Both required fields (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are not filled.
+2024-03-26 15:10:13,339 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-26 15:10:13,618 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-26 15:10:13,696 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-26 15:10:14,155 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-26 15:10:14,155 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-26 15:10:14,235 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-26 15:10:15,259 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-26 15:10:15,388 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-26 15:10:15,389 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-26 15:10:15,579 - GoodHealth AUD Plan -INFO - Both required fields (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are not filled.
+2024-03-26 15:12:17,816 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-26 15:12:18,138 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-26 15:12:18,210 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-26 15:12:18,648 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-26 15:12:18,648 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-26 15:12:18,726 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-26 15:12:19,812 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-26 15:12:19,999 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-26 15:12:20,000 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-26 15:12:20,228 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-26 15:12:20,246 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-26 15:12:20,263 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-26 15:12:20,280 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-26 15:12:20,297 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-26 15:12:20,317 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-26 15:12:20,392 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-26 15:12:20,393 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-26 15:12:20,719 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP SERIAL NUMBER' of Laptop record is not filled.
+2024-03-26 15:14:25,023 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-26 15:14:25,340 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-26 15:14:25,409 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-26 15:14:25,811 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-26 15:14:25,811 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-26 15:14:25,893 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-26 15:14:26,857 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-26 15:14:26,985 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-26 15:14:26,985 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-26 15:14:27,012 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-26 15:14:27,032 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-26 15:14:27,052 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-26 15:14:27,073 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-26 15:14:27,092 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-26 15:14:27,110 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-26 15:14:27,130 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP SERIAL NUMBER' of Laptop record is filled.
+2024-03-26 15:14:27,150 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BAR CODE' of Laptop record is filled.
+2024-03-26 15:14:27,167 - GoodHealth AUD Plan -INFO - Required field 'CHARGER SERIAL NUMBER' of Laptop record is filled.
+2024-03-26 15:14:27,185 - GoodHealth AUD Plan -INFO - Required field 'CHARGER BAR CODE' of Laptop record is filled.
+2024-03-26 15:14:27,206 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-26 15:14:27,227 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-26 15:14:27,248 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-26 15:14:27,269 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-26 15:14:27,288 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-26 15:14:27,307 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-26 15:14:27,324 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-26 15:14:27,346 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-26 15:14:27,346 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-26 15:14:27,361 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-26 15:14:27,375 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-26 15:14:27,390 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-26 15:14:27,405 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-26 15:14:27,421 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-26 15:14:27,604 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-26 16:26:01,442 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-26 16:26:01,867 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-26 16:26:01,947 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-26 16:26:02,495 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-26 16:26:02,495 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-26 16:26:02,580 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-26 16:26:03,514 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-26 16:26:03,639 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-26 16:26:03,639 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-26 16:26:03,661 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-26 16:26:03,695 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-26 16:26:03,724 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-26 16:26:03,743 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-26 16:26:03,761 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-26 16:26:03,781 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-26 16:26:03,798 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP SERIAL NUMBER' of Laptop record is filled.
+2024-03-26 16:26:03,817 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP SERIAL NUMBER' of Laptop record is filled.
+2024-03-26 16:26:03,834 - GoodHealth AUD Plan -INFO - Required field 'CHARGER SERIAL NUMBER' of Laptop record is filled.
+2024-03-26 16:26:03,852 - GoodHealth AUD Plan -INFO - Required field 'CHARGER BAR CODE' of Laptop record is filled.
+2024-03-26 16:26:03,870 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-26 16:26:03,890 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-26 16:26:03,911 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-26 16:26:03,938 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-26 16:26:03,957 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-26 16:26:03,976 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-26 16:26:03,995 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-26 16:26:04,019 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-26 16:26:04,020 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-26 16:26:04,035 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-26 16:26:04,049 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-26 16:26:04,064 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-26 16:26:04,080 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-26 16:26:04,094 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-26 16:26:04,295 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 08:55:33,971 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 09:48:29,199 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 09:48:29,643 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 09:48:29,715 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 09:48:30,420 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 09:48:30,421 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 09:48:30,496 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 09:48:31,453 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 09:48:31,605 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 09:48:31,606 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 09:48:31,627 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 09:48:31,646 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 09:48:31,664 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 09:48:31,690 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 09:48:31,713 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 09:48:31,734 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 09:48:31,755 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP SERIAL NUMBER' of Laptop record is filled.
+2024-03-27 09:48:31,778 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP SERIAL NUMBER' of Laptop record is filled.
+2024-03-27 09:48:31,796 - GoodHealth AUD Plan -INFO - Required field 'CHARGER SERIAL NUMBER' of Laptop record is filled.
+2024-03-27 09:48:31,817 - GoodHealth AUD Plan -INFO - Required field 'CHARGER BAR CODE' of Laptop record is filled.
+2024-03-27 09:48:31,840 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 09:48:31,863 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 09:48:31,886 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 09:48:31,910 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 09:48:31,927 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 09:48:31,944 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 09:48:32,022 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 09:48:32,056 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 09:48:32,056 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 09:48:32,077 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 09:48:32,098 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 09:48:32,124 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 09:48:32,139 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 09:48:32,153 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 09:48:32,431 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 11:04:49,294 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 11:04:49,660 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 11:04:49,729 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 11:04:50,299 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 11:04:50,300 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 11:04:50,382 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 11:04:51,330 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 11:04:51,488 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 11:04:51,488 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 11:04:51,512 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 11:04:51,535 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 11:04:51,562 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 11:04:51,580 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 11:04:51,600 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 11:04:51,619 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 11:04:51,639 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 11:04:51,657 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 11:04:51,675 - GoodHealth AUD Plan -INFO - Both required fields (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are filled.
+2024-03-27 11:04:51,675 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 11:04:51,692 - GoodHealth AUD Plan -INFO - Both required fields (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are filled.
+2024-03-27 11:04:51,692 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 11:04:51,712 - GoodHealth AUD Plan -INFO - Both required fields (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are filled.
+2024-03-27 11:04:51,713 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 11:04:51,736 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:04:51,756 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:04:51,777 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 11:04:51,799 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:04:51,818 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 11:04:51,837 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:04:51,864 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 11:04:51,864 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 11:04:51,881 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 11:04:51,898 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 11:04:51,915 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 11:04:51,932 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 11:04:51,949 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 11:04:52,132 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 11:07:01,013 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 11:07:01,270 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 11:07:01,338 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 11:07:01,832 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 11:07:01,832 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 11:07:01,910 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 11:07:02,894 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 11:07:03,041 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 11:07:03,042 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 11:07:03,064 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 11:07:03,090 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 11:07:03,112 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 11:07:03,132 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 11:07:03,151 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 11:07:03,170 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 11:07:03,188 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 11:07:03,210 - GoodHealth AUD Plan -INFO - At least one of the required fields  (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are filled.
+2024-03-27 11:07:03,231 - GoodHealth AUD Plan -INFO - At least one of the required fields  (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are filled.
+2024-03-27 11:07:03,254 - GoodHealth AUD Plan -INFO - At least one of the required fields  (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are filled.
+2024-03-27 11:07:03,275 - GoodHealth AUD Plan -INFO - At least one of the required fields  (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are filled.
+2024-03-27 11:07:03,297 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:07:03,318 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:07:03,338 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 11:07:03,357 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:07:03,377 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 11:07:03,396 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:07:03,424 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 11:07:03,424 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 11:07:03,442 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 11:07:03,459 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 11:07:03,477 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 11:07:03,496 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 11:07:03,513 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 11:07:03,698 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 11:09:38,521 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 11:09:38,814 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 11:09:38,883 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 11:09:39,337 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 11:09:39,338 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 11:09:39,416 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 11:09:40,330 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 11:09:40,471 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 11:09:40,472 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 11:09:40,492 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 11:09:40,521 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 11:09:40,541 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 11:09:40,560 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 11:09:40,578 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 11:09:40,596 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 11:09:40,616 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 11:09:40,634 - GoodHealth AUD Plan -INFO - At least one of the required fields  (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are filled.
+2024-03-27 11:09:40,652 - GoodHealth AUD Plan -INFO - At least one of the required fields  (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are filled.
+2024-03-27 11:09:40,670 - GoodHealth AUD Plan -INFO - At least one of the required fields  (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are filled.
+2024-03-27 11:09:40,687 - GoodHealth AUD Plan -INFO - At least one of the required fields  (LAPTOP SERIAL NUMBER and LAPTOP BAR CODE) of Laptop record are filled.
+2024-03-27 11:09:40,705 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:09:40,724 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:09:40,745 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 11:09:40,765 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:09:40,785 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 11:09:40,805 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:09:40,834 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 11:09:40,835 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 11:09:40,857 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 11:09:40,875 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 11:09:40,892 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 11:09:40,911 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 11:09:40,928 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 11:09:41,148 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 11:41:27,982 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 11:41:29,060 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 11:41:29,137 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 11:41:29,716 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 11:41:29,716 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 11:41:29,841 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 11:41:30,490 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 11:41:30,680 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 11:41:30,681 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 11:41:30,708 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 11:41:30,733 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 11:41:30,758 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 11:41:30,781 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 11:41:30,802 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 11:41:30,823 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 11:41:30,843 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 11:41:30,864 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 11:41:30,889 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 11:41:30,910 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 11:41:30,931 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 11:41:30,953 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:41:30,974 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:41:30,996 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 11:41:31,016 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:41:31,034 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 11:41:31,052 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:41:31,078 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 11:41:31,078 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 11:41:31,100 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 11:41:31,120 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 11:41:31,136 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 11:41:31,151 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 11:41:31,166 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 11:41:31,428 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 11:46:50,434 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 11:46:50,764 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 11:46:50,839 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 11:46:51,248 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 11:46:51,249 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 11:46:51,329 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 11:46:52,231 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 11:46:52,360 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 11:46:52,360 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 11:46:52,380 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 11:46:52,404 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 11:46:52,431 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 11:46:52,450 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 11:46:52,469 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 11:46:52,487 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 11:46:52,506 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 11:46:52,542 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:46:52,560 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:46:52,579 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 11:46:52,597 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:46:52,615 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 11:46:52,635 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 11:46:52,657 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 11:46:52,657 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 11:46:52,672 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 11:46:52,686 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 11:46:52,701 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 11:46:52,716 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 11:46:52,731 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 11:46:52,920 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 12:25:13,241 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 12:25:13,528 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 12:25:13,609 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 12:25:14,107 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 12:25:14,108 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 12:25:14,160 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 12:25:15,091 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 12:25:15,237 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 12:25:15,238 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 12:25:15,261 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 12:25:15,286 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 12:25:15,307 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 12:25:15,328 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 12:25:15,347 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 12:25:15,365 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 12:25:15,384 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 12:25:15,421 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:25:15,438 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:25:15,459 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 12:25:15,480 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:25:15,501 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 12:25:15,523 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:25:15,545 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 12:25:15,546 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 12:25:15,561 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 12:25:15,575 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 12:25:15,590 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 12:25:15,605 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 12:25:15,620 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 12:25:15,840 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 12:45:50,202 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 12:45:51,201 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 12:45:51,268 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 12:45:51,741 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 12:45:51,742 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 12:45:51,817 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 12:45:52,748 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 12:45:52,880 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 12:45:52,881 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 12:45:52,902 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 12:45:52,933 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 12:45:52,951 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 12:45:52,973 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 12:45:52,992 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 12:45:53,010 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 12:45:53,050 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 12:45:53,071 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 12:45:53,093 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:45:53,113 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:45:53,135 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 12:45:53,155 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:45:53,178 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 12:45:53,200 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:45:53,226 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 12:45:53,226 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 12:45:53,244 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 12:45:53,261 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 12:45:53,280 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 12:45:53,299 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 12:45:53,317 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 12:45:53,519 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 12:48:08,182 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 12:48:08,505 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 12:48:08,579 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 12:48:08,992 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 12:48:08,992 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 12:48:09,057 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 12:48:10,004 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 12:48:10,152 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 12:48:10,152 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 12:48:10,177 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 12:48:10,203 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 12:48:10,222 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 12:48:10,241 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 12:48:10,259 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 12:48:10,280 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 12:48:10,305 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 12:48:10,324 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 12:48:10,343 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:48:10,362 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:48:10,382 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 12:48:10,401 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:48:10,422 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 12:48:10,452 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:48:10,480 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 12:48:10,481 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 12:48:10,497 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 12:48:10,512 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 12:48:10,527 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 12:48:10,544 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 12:48:10,559 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 12:48:10,737 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 12:53:26,139 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 12:53:26,432 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 12:53:26,512 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 12:53:26,938 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 12:53:26,938 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 12:53:27,014 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 12:53:27,924 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 12:53:28,071 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 12:53:28,072 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 12:53:28,091 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 12:53:28,130 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 12:53:28,150 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 12:53:28,170 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 12:53:28,187 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 12:53:28,207 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 12:53:28,228 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 12:53:28,249 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 12:53:28,266 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:53:28,284 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:53:28,302 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 12:53:28,322 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:53:28,340 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 12:53:28,359 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 12:53:28,382 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 12:53:28,383 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 12:53:28,397 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 12:53:28,412 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 12:53:28,425 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 12:53:28,441 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 12:53:28,455 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 12:53:28,602 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 13:01:37,298 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 13:01:37,627 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 13:01:37,705 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 13:01:38,290 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 13:01:38,291 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 13:01:38,388 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 13:01:39,358 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 13:01:39,479 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 13:01:39,479 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 13:01:39,501 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 13:01:39,528 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 13:01:39,552 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 13:01:39,572 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 13:01:39,592 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 13:01:39,610 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 13:01:39,629 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 13:01:39,648 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 13:01:39,828 - GoodHealth AUD Plan -INFO - Both required fields (CHARGER SERIAL NUMBER and CHARGER BAR CODE) of Laptop record are not filled.
+2024-03-27 13:12:36,606 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 13:12:37,085 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 13:12:37,153 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 13:12:37,603 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 13:12:37,604 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 13:12:37,677 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 13:12:38,620 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 13:12:38,749 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 13:12:38,749 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 13:12:38,785 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 13:12:38,806 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 13:12:38,825 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 13:12:38,845 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 13:12:38,866 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 13:12:38,886 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 13:12:38,905 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 13:12:38,923 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 13:12:38,943 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 13:12:38,962 - GoodHealth AUD Plan -INFO - At least one of the required fields (CHARGER SERIAL NUMBER or CHARGER BAR CODE) of Laptop record is filled.
+2024-03-27 13:12:38,981 - GoodHealth AUD Plan -INFO - At least one of the required fields (CHARGER SERIAL NUMBER or CHARGER BAR CODE) of Laptop record is filled.
+2024-03-27 13:12:39,002 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 13:12:39,020 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 13:12:39,037 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 13:12:39,054 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 13:12:39,071 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 13:12:39,087 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 13:12:39,113 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 13:12:39,113 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 13:12:39,131 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 13:12:39,149 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 13:12:39,166 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 13:12:39,184 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 13:12:39,201 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 13:12:39,427 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 13:13:45,147 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 13:13:45,418 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 13:13:45,501 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 13:13:45,963 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 13:13:45,963 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 13:13:46,035 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 13:13:46,946 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 13:13:47,100 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 13:13:47,100 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 13:13:47,126 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 13:13:47,152 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 13:13:47,174 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 13:13:47,192 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 13:13:47,210 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 13:13:47,228 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 13:13:47,247 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 13:13:47,266 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 13:13:47,284 - GoodHealth AUD Plan -INFO - At least one of the required fields (CHARGER SERIAL NUMBER or CHARGER BAR CODE) of Laptop record is filled.
+2024-03-27 13:13:47,302 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 13:13:47,322 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 13:13:47,339 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 13:13:47,357 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 13:13:47,375 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 13:13:47,392 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 13:13:47,419 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 13:13:47,420 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 13:13:47,436 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 13:13:47,457 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 13:13:47,475 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 13:13:47,494 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 13:13:47,514 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 13:13:47,718 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 13:22:56,428 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 13:22:56,762 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 13:22:56,836 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 13:22:57,319 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 13:22:57,320 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 13:22:57,396 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 13:22:58,308 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 13:22:58,439 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 13:22:58,439 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 13:22:58,462 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 13:22:58,481 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 13:22:58,509 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 13:22:58,528 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 13:22:58,547 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 13:22:58,565 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 13:22:58,581 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 13:22:58,600 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 13:22:58,619 - GoodHealth AUD Plan -INFO - At least one of the required fields (CHARGER SERIAL NUMBER or CHARGER BAR CODE) of Laptop record is filled.
+2024-03-27 13:22:58,638 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 13:22:58,656 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 13:22:58,674 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 13:22:58,693 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 13:22:58,710 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 13:22:58,728 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 13:22:58,750 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 13:22:58,751 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 13:22:58,766 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 13:22:58,780 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 13:22:58,795 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 13:22:58,809 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 13:22:58,823 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 13:22:59,012 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 13:22:59,202 - GoodHealth AUD Plan -INFO - Item Name: Desktop Computer
+2024-03-27 13:22:59,222 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Desktop record is filled.
+2024-03-27 13:22:59,239 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Desktop record is filled.
+2024-03-27 13:22:59,255 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Desktop record is filled.
+2024-03-27 13:22:59,269 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Desktop record is filled.
+2024-03-27 13:22:59,284 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Desktop record is filled.
+2024-03-27 13:22:59,504 - GoodHealth AUD Plan -INFO - None of the required field'15'of Desktop record is filled.
+2024-03-27 14:18:19,522 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 14:18:20,590 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 14:18:20,660 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 14:18:21,225 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 14:18:21,226 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 14:18:21,310 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 14:18:22,223 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 14:18:22,382 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 14:18:22,383 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 14:18:22,410 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 14:18:22,430 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 14:18:22,451 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 14:18:22,467 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 14:18:22,485 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 14:18:22,504 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 14:18:22,524 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 14:18:22,545 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 14:18:22,565 - GoodHealth AUD Plan -INFO - At least one of the required fields (CHARGER SERIAL NUMBER or CHARGER BAR CODE) of Laptop record is filled.
+2024-03-27 14:18:22,585 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 14:18:22,606 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 14:18:22,630 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 14:18:22,654 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 14:18:22,677 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 14:18:22,701 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 14:18:22,733 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 14:18:22,733 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 14:18:22,754 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 14:18:22,775 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 14:18:22,793 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 14:18:22,815 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 14:18:22,836 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 14:18:23,094 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 14:18:23,567 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 14:18:23,567 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0021008
+2024-03-27 14:18:23,588 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 14:18:23,608 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 14:18:23,628 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 14:18:23,647 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 14:18:23,668 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 14:18:23,689 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 14:18:23,846 - GoodHealth AUD Plan -INFO - Both required fields (CPU SERIAL NUMBER and CPU BAR CODE) of Laptop record are not filled.
+2024-03-27 14:26:24,823 - GoodHealth AUD Plan -INFO - URL is opened
+2024-03-27 14:26:25,260 - GoodHealth AUD Plan -INFO - Username is entered
+2024-03-27 14:26:25,332 - GoodHealth AUD Plan -INFO - Password is entered
+2024-03-27 14:26:25,809 - GoodHealth AUD Plan -INFO - Login successfully
+2024-03-27 14:26:25,810 - GoodHealth AUD Plan -INFO - Login to the Home Page
+2024-03-27 14:26:25,900 - GoodHealth AUD Plan -INFO - Select ICT Inventory Manager from the dropdown
+2024-03-27 14:26:26,386 - GoodHealth AUD Plan -INFO - Select Browse Inventory from the dropdown
+2024-03-27 14:26:26,510 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 14:26:26,511 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011004
+2024-03-27 14:26:26,522 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 14:26:26,530 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 14:26:26,538 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 14:26:26,546 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 14:26:26,554 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 14:26:26,562 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is filled.
+2024-03-27 14:26:26,570 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 14:26:26,579 - GoodHealth AUD Plan -INFO - At least one of the required fields (LAPTOP SERIAL NUMBER or LAPTOP BAR CODE) of Laptop record is filled.
+2024-03-27 14:26:26,586 - GoodHealth AUD Plan -INFO - At least one of the required fields (CHARGER SERIAL NUMBER or CHARGER BAR CODE) of Laptop record is filled.
+2024-03-27 14:26:26,595 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 14:26:26,602 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Laptop record is filled with 'N/A'.
+2024-03-27 14:26:26,610 - GoodHealth AUD Plan -INFO - Non-required field 'CPU SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 14:26:26,618 - GoodHealth AUD Plan -INFO - Non-required field 'CPU BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 14:26:26,626 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR SERIAL NUMBER' of Laptop record is filled with 'N/A'.
+2024-03-27 14:26:26,634 - GoodHealth AUD Plan -INFO - Non-required field 'MONITOR BAR CODE' of Laptop record is filled with 'N/A'.
+2024-03-27 14:26:26,661 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 14:26:26,661 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0011012
+2024-03-27 14:26:26,670 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 14:26:26,677 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 14:26:26,684 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 14:26:26,692 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 14:26:26,700 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 14:26:26,929 - GoodHealth AUD Plan -INFO - Required field 'LAPTOP BRAND NAME' of Laptop record is not filled.
+2024-03-27 14:26:27,409 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 14:26:27,409 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0021008
+2024-03-27 14:26:27,419 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 14:26:27,430 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 14:26:27,441 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 14:26:27,451 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 14:26:27,461 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 14:26:27,471 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is filled.
+2024-03-27 14:26:27,481 - GoodHealth AUD Plan -INFO - At least one of the required fields (CPU SERIAL NUMBER or CPU BAR CODE) of Laptop record is filled.
+2024-03-27 14:26:27,492 - GoodHealth AUD Plan -INFO - At least one of the required fields (Monitor SERIAL NUMBER or Monitor BAR CODE) of Laptop record is filled.
+2024-03-27 14:26:27,501 - GoodHealth AUD Plan -INFO - Non-required field 'CODE' of Desktop record is filled with 'N/A'.
+2024-03-27 14:26:27,511 - GoodHealth AUD Plan -INFO - Non-required field 'CODE TYPE' of Desktop record is filled with 'N/A'.
+2024-03-27 14:26:27,521 - GoodHealth AUD Plan -INFO - Non-required field 'LAPTOP BRAND NAME' of Desktop record is filled with 'N/A'.
+2024-03-27 14:26:27,531 - GoodHealth AUD Plan -INFO - Non-required field 'LAPTOP SERIAL NUMBER' of Desktop record is filled with 'N/A'.
+2024-03-27 14:26:27,541 - GoodHealth AUD Plan -INFO - Non-required field 'LAPTOP BAR CODE' of Desktop record is filled with 'N/A'.
+2024-03-27 14:26:27,551 - GoodHealth AUD Plan -INFO - Non-required field 'CHARGER SERIAL NUMBER' of Desktop record is filled with 'N/A'.
+2024-03-27 14:26:27,561 - GoodHealth AUD Plan -INFO - Non-required field 'CHARGER BAR CODE' of Desktop record is filled with 'N/A'.
+2024-03-27 14:26:27,591 - GoodHealth AUD Plan -INFO - ----------------------------------------------------------------------
+2024-03-27 14:26:27,591 - GoodHealth AUD Plan -INFO - Request ID for Laptop record: ITM0021016
+2024-03-27 14:26:27,601 - GoodHealth AUD Plan -INFO - Required field 'USER NAME' of Laptop record is filled.
+2024-03-27 14:26:27,610 - GoodHealth AUD Plan -INFO - Required field 'ITEM NAME' of Laptop record is filled.
+2024-03-27 14:26:27,621 - GoodHealth AUD Plan -INFO - Required field 'ITEM CODE' of Laptop record is filled.
+2024-03-27 14:26:27,630 - GoodHealth AUD Plan -INFO - Required field 'QUANTITY' of Laptop record is filled.
+2024-03-27 14:26:27,640 - GoodHealth AUD Plan -INFO - Required field 'ITEM TYPE' of Laptop record is filled.
+2024-03-27 14:26:27,798 - GoodHealth AUD Plan -INFO - Required field 'IT PURCHASE NUMBER' of Laptop record is not filled.
