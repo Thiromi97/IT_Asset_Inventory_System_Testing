@@ -94,7 +94,6 @@ public class ITAI_AI_TC_0003 extends Base {
                                     logger.info("Required field '" + fieldName + "' of Laptop record is not filled.");
                                     Assert.fail();
                                 }
-
                     }
 
                     for(Integer laptopNumber:specialLaptopFields) {
@@ -213,7 +212,7 @@ public class ITAI_AI_TC_0003 extends Base {
                 if (itemName.equalsIgnoreCase("Desktop Computer")) {
                     String requestID = cells.get(0).getText();
                     logger.info("----------------------------------------------------------------------");
-                    logger.info("Request ID for Laptop record: " + requestID);
+                    logger.info("Request ID for Desktop record: " + requestID);
                     List<Integer> requiredFields = Arrays.asList(2, 3, 4, 5, 6, 21);
                     List<Integer> otherFields = Arrays.asList(7, 8, 10, 11, 12, 13, 14);
                     List<Integer> specialCPUFields = Arrays.asList(15,16);
@@ -251,15 +250,13 @@ public class ITAI_AI_TC_0003 extends Base {
                         }
                         if (!fieldValue.equalsIgnoreCase("N/A")) {
                             Assert.assertTrue(true);
-                            logger.info("Required field '" + fieldName + "' of Laptop record is filled.");
+                            logger.info("Required field '" + fieldName + "' of Desktop record is filled.");
                         } else {
-                            captureScreen(driver, "checkLaptopRecordDataAreFilled");
-                            logger.info("Required field '" + fieldName + "' of Laptop record is not filled.");
+                            captureScreen(driver, "checkDesktopRecordDataAreFilled");
+                            logger.info("Required field '" + fieldName + "' of Desktop record is not filled.");
                             Assert.fail();
                         }
-
                     }
-
                     for(Integer cpuNumber:specialCPUFields){
                         String fieldValue = cells.get(cpuNumber - 1).getText();
                         switch (cpuNumber) {
@@ -276,19 +273,16 @@ public class ITAI_AI_TC_0003 extends Base {
                             default:
                                 break;
                         }
-
                         if (cpuSerialNoFilled || cpuBarCodeFilled) {
                             Assert.assertTrue(true);
-                            logger.info("At least one of the required fields (CPU SERIAL NUMBER or CPU BAR CODE) of Laptop record is filled.");
+                            logger.info("At least one of the required fields (CPU SERIAL NUMBER or CPU BAR CODE) of Desktop record is filled.");
                             break;
                         } else {
                             captureScreen(driver, "checkDesktopRecordDataAreFilled");
-                            logger.info("Both required fields (CPU SERIAL NUMBER and CPU BAR CODE) of Laptop record are not filled.");
+                            logger.info("Both required fields (CPU SERIAL NUMBER and CPU BAR CODE) of Desktop record are not filled.");
                             Assert.fail();
                         }
-
                     }
-
                     for(Integer monitorNumber:specialMonitorFields){
                         String fieldValue = cells.get(monitorNumber - 1).getText();
                         switch (monitorNumber) {
@@ -305,20 +299,16 @@ public class ITAI_AI_TC_0003 extends Base {
                             default:
                                 break;
                         }
-
                         if (monitorSerialNoFilled || monitorBarCodeFilled) {
                             Assert.assertTrue(true);
-                            logger.info("At least one of the required fields (Monitor SERIAL NUMBER or Monitor BAR CODE) of Laptop record is filled.");
+                            logger.info("At least one of the required fields (MONITOR SERIAL NUMBER or MONITOR BAR CODE) of Desktop record is filled.");
                             break;
                         } else {
                             captureScreen(driver, "checkDesktopRecordDataAreFilled");
-                            logger.info("Both required fields (Monitor SERIAL NUMBER and Monitor BAR CODE) of Laptop record are not filled.");
+                            logger.info("Both required fields (MONITOR SERIAL NUMBER and MONITOR BAR CODE) of Desktop record are not filled.");
                             Assert.fail();
                         }
-
                     }
-
-
                     for (Integer fieldNumber : otherFields) {
                         String fieldValue = cells.get(fieldNumber- 1).getText();
                         String fieldName;
@@ -348,7 +338,6 @@ public class ITAI_AI_TC_0003 extends Base {
                                 fieldName = "Unknown Field";
                                 break;
                         }
-
                         if (fieldValue.equals("N/A")) {
                             Assert.assertTrue(true);
                             logger.info("Non-required field '" + fieldName + "' of Desktop record is filled with 'N/A'.");
@@ -364,5 +353,113 @@ public class ITAI_AI_TC_0003 extends Base {
     }
 
     @Test(priority = 3)
+    public void checkSubItemRecordDataAreFilled() throws IOException {
+        BrowseInventoryPage browseInventoryPage = new BrowseInventoryPage(driver);
+        browseInventoryPage.recordsPerPage();
+        WebElement table = browseInventoryPage.getAllItemsTable();
+        List<WebElement> rows = table.findElements(By.tagName("tr"));
+        for (WebElement row : rows) {
+            List<WebElement> cells = row.findElements(By.tagName("td"));
+            if (!cells.isEmpty()) {
+                String itemName = cells.get(5).getText();
+                if (itemName.equalsIgnoreCase("Sub Item")) {
+                    String requestID = cells.get(0).getText();
+                    logger.info("----------------------------------------------------------------------");
+                    logger.info("Request ID for Sub Item record: " + requestID);
+                    List<Integer> requiredFields = Arrays.asList(2, 3, 4, 5, 6,7,8,21);
+                    List<Integer> otherFields = Arrays.asList(10, 11, 12, 13, 14,15,16,17,18);
+                    // Check required fields
+                    for (Integer columnNumber : requiredFields) {
+                        String fieldValue = cells.get(columnNumber - 1).getText();
+                        String fieldName;
+                        switch (columnNumber) {
+                            case 2:
+                                fieldName = "USER NAME";
+                                break;
+                            case 3:
+                                fieldName = "ITEM NAME";
+                                break;
+                            case 4:
+                                fieldName = "ITEM CODE";
+                                break;
+                            case 5:
+                                fieldName = "QUANTITY";
+                                break;
+                            case 6:
+                                fieldName = "ITEM TYPE";
+                                break;
+                            case 7:
+                                fieldName = "CODE TYPE";
+                                break;
+                            case 8:
+                                fieldName = "CODE";
+                                break;
+                            case 21:
+                                fieldName = "IT PURCHASE NUMBER";
+                                break;
+                            default:
+                                fieldName = "Unknown Field";
+                                break;
+                        }
+                        if (!fieldValue.equalsIgnoreCase("N/A")) {
+                            Assert.assertTrue(true);
+                            logger.info("Required field '" + fieldName + "' of Sub Item record is filled.");
+                        } else {
+                            captureScreen(driver, "checkSubItemRecordDataAreFilled");
+                            logger.info("Required field '" + fieldName + "' of Sub Item record is not filled.");
+                            Assert.fail();
+                        }
+
+                    }
+
+                    for (Integer fieldNumber : otherFields) {
+                        String fieldValue = cells.get(fieldNumber- 1).getText();
+                        String fieldName;
+                        switch (fieldNumber) {
+                            case 10:
+                                fieldName = "LAPTOP BRAND NAME";
+                                break;
+                            case 11:
+                                fieldName = "LAPTOP SERIAL NUMBER";
+                                break;
+                            case 12:
+                                fieldName = "LAPTOP BAR CODE";
+                                break;
+                            case 13:
+                                fieldName = "CHARGER SERIAL NUMBER";
+                                break;
+                            case 14:
+                                fieldName = "CHARGER BAR CODE";
+                                break;
+                            case 15:
+                                fieldName = "CPU SERIAL NUMBER";
+                                break;
+                            case 16:
+                                fieldName = "CPU BAR CODE";
+                                break;
+                            case 17:
+                                fieldName = "MONITOR SERIAL NUMBER";
+                                break;
+                            case 18:
+                                fieldName = "MONITOR BAR CODE";
+                                break;
+                            default:
+                                fieldName = "Unknown Field";
+                                break;
+                        }
+
+                        if (fieldValue.equals("N/A")) {
+                            Assert.assertTrue(true);
+                            logger.info("Non-required field '" + fieldName + "' of Sub Item record is filled with 'N/A'.");
+                        } else {
+                            captureScreen(driver, "checkSubItemRecordDataAreFilled");
+                            logger.info("Non-required field '" + fieldName + "' of Sub Item record is not filled with 'N/A'.");
+                            Assert.fail();
+                        }
+                    }
+                }
+            }
+        }
+    }
 
 }
